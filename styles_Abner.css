@@ -1,0 +1,130 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a16fa;
+    color: #f8f6f6;
+
+}
+
+header {
+    background-color: #100808;
+    color: rgb(243, 237, 237);
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+    background: #6b4dd7;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: rgb(136, 105, 238);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(242, 240, 240, 0.1);
+    overflow: hidden;
+    max-width: 250px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #f8f3f3;
+    margin: 0 10px 10px;
+}
+
+.form-section {
+    background: #0b0c07;
+    padding: 20px;
+    border: 1px solid #0c0808;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(9, 9, 9, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #090808;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #1803d3;
+    color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #0a0707;
+    color: rgb(246, 241, 241);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+a {
+    color: #f1e9f2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
