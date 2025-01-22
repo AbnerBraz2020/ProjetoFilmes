@@ -10,9 +10,8 @@ git --version
 -
 
 ### Comandos administrativos do GIT
--
 
-git status
-git add . or git add index.html
-git commit -m "Mensagem de desenvolvedor" ex: git commit -m "File update"
-git push -u origion master or main
+- git status
+- git add . or git add index.html
+- git commit -m "Mensagem de desenvolvedor" ex: git commit -m "File update"
+- git push -u origion master or main
