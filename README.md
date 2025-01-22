@@ -4,7 +4,7 @@ Tutorial de instalação do GIT
 
  <p align="center">
     <a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git" target="_blank">
-        <img src="docs/Imagens/Captura de tela 2025-01-22 103356.png" width="400"> 
+        <img src="docs/Imagens/Captura de tela 2025-01-22 103356.png" width="600"> 
     </a>
     </p>
 
