@@ -6,7 +6,7 @@ Tutorial de instalação do GIT
     </p>
 
 
-git --version
+Passo a Passo:
 -
 ### CAPITULO 2 - CONFIGURANDO GIT
 
