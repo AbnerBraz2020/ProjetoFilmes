@@ -13,7 +13,7 @@ Tutorial de instalação do GIT
 </p>
 
 ### PASSO 2 - CONFIGURANDO A CONTA GIT PELO TERMINAL
-Precisa fazer alguns comandos no terminal do Windows
+Precisa fazer alguns comandos no Terminal do Windows para extrair a chave.
 
 <p align="center">
     <img src="Docs/Imagens/Terminal.png" width="400"> 
@@ -22,14 +22,28 @@ Precisa fazer alguns comandos no terminal do Windows
 - git --version
 - git config --global user.name "Fulano de Tal"
 - git config --global user.email fulanodetal@exemplo.br
-- ssh-keygen (Comando que gera a chave publica e privada)
-- cat
+- ssh-keygen (Comando que gera a chave publica e privada, também irá pedir a criação de uma senha)
+- cat (Extrai a chave publica)
 
-Passo a Passo:
--
-#### CAPITULO 2 - CONFIGURANDO GIT
+#### PASSO 3 - CONFIGURANDO GIT
+Ao extrair a chave no Terminal, você precisa gravar sua chave no git.
+Profile > Setting > SSH and GPG Keys > New SSH Key
 
-##### Comandos administrativos do GIT
+<p align="center">
+    <img src="Docs/Imagens/Captura de tela 2025-01-23 092848.png" width="400"> 
+</p>
+
+##### PASSO 4 - CRIAÇÃO DO REPOSITORIO
+Como criar um repositorio.
+<p align="center">
+    <img src="Docs/Imagens/Repositorio.png" width="400"> 
+</p>
+
+###### PASSO 5 - COMANDOS ADMINISTRATIVOS DO GIT NO TERMINAL DO VSCODE
+
+<p align="center">
+    <img src="Docs/Imagens/Terminal VScode.png" width="400"> 
+</p>
 
 - git status
 - git add . or git add index.html
