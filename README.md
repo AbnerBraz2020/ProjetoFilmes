@@ -1,5 +1,5 @@
 # MANUAL DE UTILIZAÇÃO DO SISTEMA/SITE
-## CAPITULO 1 - CONFIGURAÇÃO INICIAL
+## PASSO 1 - CONFIGURAÇÃO INICIAL
 Tutorial de instalação do GIT
 
  <p align="justify">
@@ -12,12 +12,24 @@ Tutorial de instalação do GIT
     </a>
 </p>
 
+### PASSO 2 - CONFIGURANDO A CONTA GIT PELO TERMINAL
+Precisa fazer alguns comandos no terminal do Windows
+
+<p align="center">
+    <img src="Docs/Imagens/Terminal.png" width="400"> 
+</p>
+
+- git --version
+- git config --global user.name "Fulano de Tal"
+- git config --global user.email fulanodetal@exemplo.br
+- ssh-keygen (Comando que gera a chave publica e privada)
+- cat
 
 Passo a Passo:
 -
-### CAPITULO 2 - CONFIGURANDO GIT
+#### CAPITULO 2 - CONFIGURANDO GIT
 
-#### Comandos administrativos do GIT
+##### Comandos administrativos do GIT
 
 - git status
 - git add . or git add index.html
