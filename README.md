@@ -8,7 +8,7 @@ Tutorial de instalação do GIT
 
  <p align="center">
     <a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git" target="_blank">
-        <img src="docs/Imagens/Git.png" width="400"> 
+        <img src="Docs/Imagens/Git.png" width="400"> 
     </a>
 </p>
 
@@ -23,5 +23,3 @@ Passo a Passo:
 - git add . or git add index.html
 - git commit -m "Mensagem de desenvolvedor" ex: git commit -m "File update"
 - git push -u origion master or main
-
-[def]: ocs/Imagens/Git.pn
