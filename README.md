@@ -35,6 +35,12 @@ Profile > Setting > SSH and GPG Keys > New SSH Key
 
 ## PASSO 4 - CRIAÇÃO DO REPOSITORIO
 Como criar um repositorio.
+
+- git init
+- git remote add origin
+- git branch -m brain
+- git push -u origin main ou master
+
 <p align="center">
     <img src="Docs/Imagens/Repositorio.png" width="400"> 
 </p>
