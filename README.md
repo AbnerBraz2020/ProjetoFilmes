@@ -45,6 +45,11 @@ Como criar um repositorio.
     <img src="Docs/Imagens/Repositorio.png" width="400"> 
 </p>
 
+## EXECUTANDO VSCODE
+<p align="center">
+    <img src="Docs/Imagens/vscode.png" width="400"> 
+</p>
+
 ## PASSO 5 - COMANDOS ADMINISTRATIVOS DO GIT NO TERMINAL DO VSCODE
 
 <p align="center">
