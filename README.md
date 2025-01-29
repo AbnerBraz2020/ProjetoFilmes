@@ -1,11 +1,4 @@
 # MANUAL DE UTILIZAÇÃO DO SISTEMA/SITE
-
-
-
-<p align="center">
-    <img src="Docs/Imagens/CRIAÇÃO DE PASTA.png" width="400"> 
-</p>
-
 ## PASSO 1 - CONFIGURAÇÃO INICIAL
 Tutorial de instalação do GIT
 
@@ -52,14 +45,7 @@ Como criar um repositorio.
     <img src="Docs/Imagens/Repositorio.png" width="400"> 
 </p>
 
-## REMOVENDO CREDENCIAIS
-
-<p align="center">
-    <img src="Docs/Imagens/CREDENCIAIS.png" width="400"> 
-</p>
-
 ## EXECUTANDO VSCODE
-
 <p align="center">
     <img src="Docs/Imagens/vscode.png" width="400"> 
 </p>
@@ -73,4 +59,7 @@ Como criar um repositorio.
 - git status
 - git add . or git add index.html
 - git commit -m "Mensagem de desenvolvedor" ex: git commit -m "File update"
-- git push -u origin master or main
+- git push -u origion master or main
+
+## Clonar Projeto do Github 
+git clone (+ link do projeto no git e dentro do diretorio)

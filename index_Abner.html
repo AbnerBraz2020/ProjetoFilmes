@@ -1,57 +1,97 @@
 <!DOCTYPE html>
+<!--DOCTYPE html= "Esse termo é utilizado para identificar o tipo desse arquivo"-->
 <html lang="pt-br">
+<!--html lang= "Qual é o tipo de linguagem está sendo utilizado"-->
+<!--Inicio da HEAD-->
 <head>
+<!--meta= "São elementos que você cria para descrever o conteúdo de uma página para os mecanismos de busca."-->
     <meta charset="UTF-8">
+    <!--meta charset= "Indica que a página da web usa a codificação de caracteres UTF-8, que define o conjunto de caracteres a ser utilizado na exibição do conteúdo de um site."-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta name= "Isso ajuda a página a ser exibida corretamente em dispositivos móveis, ajustando seu tamanho e escala."-->
     <title>Catálogo de Mídias</title>
+    <!-- title= Define o titulo de uma pagina web."-->
     <link rel="stylesheet" href="css/styles_Abner.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css&quot; integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-</head>
-
+    <!--link rel= "Indica o relacionamento entre um link e outros elementos de uma página web."-->
+    <!--rel= "stylesheet"= Indica que o recurso vinculado é uma folha de estilo.-->
+    <!--href= É um atributo que se incorpora em uma tag de âncora (<a>) e que define o destino de um link, para onde o navegador deve direcionar o usuário quando o link é clicado.
+    "styles.css"= é o caminho para o arquivo CSS.-->
+  </head>
+  <!--Fim da Head-->
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--nav= "É uma forma semântica de agrupar os links de navegação de um site, tornando-o mais acessível, organizado e otimizado para SEO."-->
         <a class="navbar-brand" href="#">Inicial</a>
+    <!--<a>= "Usada para criar links (ou "âncoras") que permitem aos usuários navegar entre diferentes páginas ou recursos dentro e fora de um site. A tag <a> pode ser usada para vincular uma página a outra, abrir um documento, enviar e-mails, ou até mesmo executar outras ações."-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <!--button= "É usada para criar um botão interativo que pode ser clicado pelos usuários para executar ações, como enviar um formulário, acionar um script JavaScript ou até mesmo realizar outras interações na página."-->
           <span class="navbar-toggler-icon"></span>
+    <!--Span= Permite agrupar e estilizar partes de texto dentro de um conteúdo."-->
         </button>
       
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+              <!--div= Define divisões lógicas no conteúdo de uma página web e cria estrutura e organização na página, principalmente para aplicar estilos e organizar os elementos visualmente.-->
           <ul class="navbar-nav mr-auto">
+              <!--ul= Que representa uma lista não ordenada. Ela é usada para criar listas com marcadores, em vez de numeração.-->
             <li class="nav-item active">
+              <!--li= É usada para representar um item de uma lista, para criar marcações de tópicos, como bolinhas, em uma página.-->
               <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                <!--<a>= "Usada para criar links (ou "âncoras") que permitem aos usuários navegar entre diferentes páginas ou recursos dentro e fora de um site. A tag <a> pode ser usada para vincular uma página a outra, abrir um documento, enviar e-mails, ou até mesmo executar outras ações."-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
+                <!--<a>= "Usada para criar links (ou "âncoras") que permitem aos usuários navegar entre diferentes páginas ou recursos dentro e fora de um site. A tag <a> pode ser usada para vincular uma página a outra, abrir um documento, enviar e-mails, ou até mesmo executar outras ações."-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             </li>
+              <!--li= É usada para representar um item de uma lista, para criar marcações de tópicos, como bolinhas, em uma página.-->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown
               </a>
+              <!--<a>= "Usada para criar links (ou "âncoras") que permitem aos usuários navegar entre diferentes páginas ou recursos dentro e fora de um site. A tag <a> pode ser usada para vincular uma página a outra, abrir um documento, enviar e-mails, ou até mesmo executar outras ações."-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <!--div= Define divisões lógicas no conteúdo de uma página web e cria estrutura e organização na página, principalmente para aplicar estilos e organizar os elementos visualmente.-->
                 <a class="dropdown-item" href="#">Ação</a>
                 <a class="dropdown-item" href="#">Outra ação</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Algo mais aqui</a>
               </div>
             </li>
+              <!--<a>= "Usada para criar links (ou "âncoras") que permitem aos usuários navegar entre diferentes páginas ou recursos dentro e fora de um site. A tag <a> pode ser usada para vincular uma página a outra, abrir um documento, enviar e-mails, ou até mesmo executar outras ações."-->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <li class="nav-item">
               <a class="nav-link disabled" href="#">Desativado</a>
+                <!--<a>= "Usada para criar links (ou "âncoras") que permitem aos usuários navegar entre diferentes páginas ou recursos dentro e fora de um site. A tag <a> pode ser usada para vincular uma página a outra, abrir um documento, enviar e-mails, ou até mesmo executar outras ações."-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             </li>
+              <!--<a>= "Usada para criar links (ou "âncoras") que permitem aos usuários navegar entre diferentes páginas ou recursos dentro e fora de um site. A tag <a> pode ser usada para vincular uma página a outra, abrir um documento, enviar e-mails, ou até mesmo executar outras ações."-->
           </ul>
+            <!--ul= Que representa uma lista não ordenada. Ela é usada para criar listas com marcadores, em vez de numeração.-->
           <form class="form-inline my-2 my-lg-0">
+            <!--form= Cria um bloco para agrupar os dados de um formulário e encaminhá-los para outro documento. Já o atributo class é usado para modificar o estilo de um elemento.-->
             <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <!--Input= Cria um bloco para agrupar os dados de um formulário e encaminhá-los para outro documento. Já o atributo class é usado para modificar o estilo de um elemento. -->
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
           </form>
         </div>
+        <!--div= Que cria um bloco para agrupar os dados de um formulário e encaminhá-los para outro documento. Já o atributo class é usado para modificar o estilo de um elemento.--> 
       </nav>
     
       <header>
         <h1>Catálogo de Mídias</h1>
+        <!--h1= Titulo principal de uma página-->
         <p><abbr title="HyperText Markup Language" class="initialism">Explore filmes, músicas e muito mais!</abbr></p>
+        <!--<abbr>= É usada para indicar abreviações ou acrônimos em um documento HTML. -->
+        <!--<p>= Que serve para demarcar um parágrafo de texto. -->
     </header>
 
     <div class="container">
+      <!--div= Define divisões lógicas no conteúdo de uma página web e cria estrutura e organização na página, principalmente para aplicar estilos e organizar os elementos visualmente.-->
         <section class="intro">
+          <!--section: É usada para agrupar conteúdo relacionado dentro de uma página, com a finalidade de definir uma seção de conteúdo que pode ser independente, com um título e uma temática própria.-->
             <h2>Sobre o Catálogo</h2>
             <p>Descubra uma seleção incrível de mídias, desde os melhores filmes até músicas que marcaram época. Nosso objetivo é proporcionar uma experiência única para quem ama entretenimento.</p>
         </section>
@@ -59,17 +99,23 @@
         <section class="category">
             <h2>Filmes</h2>
             <div class="grid">
+              <!--div= Define divisões lógicas no conteúdo de uma página web e cria estrutura e organização na página, principalmente para aplicar estilos e organizar os elementos visualmente.-->
                 <div class="card">
                     <a href="https://www.youtube.com/embed/K6lJSJXSdfI?si=54L0UqQiKV_Ztg1q" target="_blank">
                     <img src="https://m.media-amazon.com/images/S/pv-target-images/dd6fb66997dd4cb5606b587bb255d2cd2cec20ecbd11852a8f6b07a1358d09a1.jpg" alt="Filme 1">
                     </a>
+<!--<a>= "Usada para criar links (ou "âncoras") que permitem aos usuários navegar entre diferentes páginas ou recursos dentro e fora de um site. A tag <a> pode ser usada para vincular uma página a outra, abrir um documento, enviar e-mails, ou até mesmo executar outras ações."-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                     <h3>Deadpool e Wolverine</h3>
                     <p>Wade Wilson desfruta de um momento de aparente calma ao lado de Vanessa (Morena Baccarin) e seus amigos e, em contra partida, Wolverine se recupera de seus ferimentos. Um têm os seus caminhos cruzados com o outro, dando início a uma improvável aliança. Juntos, eles enfrentam um inimigo formidável em comum, desencadeando uma jornada repleta de ação, humor e reviravoltas surpreendentes. Deadpool & Wolverine promete ser uma aventura épica, cheia de referências aos quadrinhos e momentos de pura adrenalina, proporcionando aos fãs uma experiência única e inesquecível no universo dos super-heróis.</p>
                 </div>
+                <!--div= Define divisões lógicas no conteúdo de uma página web e cria estrutura e organização na página, principalmente para aplicar estilos e organizar os elementos visualmente.-->
                 <div class="card">
                     <a href="https://www.youtube.com/embed/yAZxx8t9zig?si=UxkAsSXJ97T29MlL" target="_blank">
                     <img src="https://lumiere-a.akamaihd.net/v1/images/gife454xsaa8wv-_3e8071e7.jpeg" alt="Filme 2">
                     </a>
+<!--<a>= "Usada para criar links (ou "âncoras") que permitem aos usuários navegar entre diferentes páginas ou recursos dentro e fora de um site. A tag <a> pode ser usada para vincular uma página a outra, abrir um documento, enviar e-mails, ou até mesmo executar outras ações."-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                     <h3>Divertida-Mente 2</h3>
                     <p>“Divertida-Mente 2 (Inside Out 2)” da Disney e da Pixar regressa à mente da Riley, acabada de chegar à adolescência, justamente quando o quartel-general passa por uma demolição súbita para criar espaço para algo inteiramente inesperado: Emoções novas!</p>
                 </div>
@@ -83,6 +129,8 @@
                     <a href="https://www.youtube.com/embed/p9wsEOVK4cw?si=xas_or35GP1bPbjf" target="_blank">
                     <img src="https://i.ytimg.com/vi/kGjcyBpYIt0/maxresdefault.jpg" alt="Música 1">
                     </a>
+<!--<a>= "Usada para criar links (ou "âncoras") que permitem aos usuários navegar entre diferentes páginas ou recursos dentro e fora de um site. A tag <a> pode ser usada para vincular uma página a outra, abrir um documento, enviar e-mails, ou até mesmo executar outras ações."-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                     <h3>Girls</h3>
                     <p>Artista: The Kid Laroi
                         <br>Data de lançamento: 2024
@@ -92,6 +140,8 @@
                     <a href="https://www.youtube.com/embed/cr4wnsLI_Xw?si=5jD9xjeAZsSNq5b8" target="_blank">
                     <img src="https://i.ytimg.com/vi/sC8WefZ8-eQ/maxresdefault.jpg" alt="Música 2">
                 </a>
+<!--<a>= "Usada para criar links (ou "âncoras") que permitem aos usuários navegar entre diferentes páginas ou recursos dentro e fora de um site. A tag <a> pode ser usada para vincular uma página a outra, abrir um documento, enviar e-mails, ou até mesmo executar outras ações."-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                     <h3>2 Hands</h3>
                     <p>Data de lançamento: 2024
                         <br>Artista: Tate McRae
@@ -147,3 +197,6 @@
     <script src="/js/script.js"></script>
 </body>
 </html>
+ 
+
+teste pra ver se foi
