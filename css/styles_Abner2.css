@@ -20,6 +20,14 @@
         /* Container principal */
         .container {
             padding: 20px;
+            color: #f50101fd;
+        }
+
+        .intro {
+            margin-top: 20px;
+            font-size: 1rem;
+            color: #f30606;
+            text-align: center;
         }
 
         /* Seção do diretor */
@@ -48,7 +56,7 @@
         .card {
             background-color: white;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(241, 1, 1, 0.836);
             padding: 20px;
             text-align: center;
         }
@@ -60,9 +68,9 @@
         }
 
         .card p {
-            margin-top: 15px;
+            margin-top: 20px;
             font-size: 1rem;
-            color: #333;
+            color: #f30707;
         }
 
         footer {
