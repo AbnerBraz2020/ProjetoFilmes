@@ -67,6 +67,6 @@ git clone (+ link do projeto no git e dentro do diretorio)
 ## Jogar todo conteúdo de uma Branch para outra Branch
 Primeiramente precisa trocar de branch para que possa fazer o processo.
 
-<p aligh="center">
+<p align="center">
     <img src="Docs/Imagens/Puxar de uma branch.png" width="400">
 </p>
