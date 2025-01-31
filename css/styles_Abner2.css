@@ -70,7 +70,7 @@
             color: white;
             text-align: center;
             padding: 10px;
-            position: absolute;
+            position: 0;
             width: 100%;
             bottom: 0;
         }
