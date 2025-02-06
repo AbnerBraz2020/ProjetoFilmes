@@ -1,15 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    background:url() no-repeat center center fixed; /* Imagem como fundo */
+    background-color: #aa03ec;
+    background:url(/Docs/Imagens/D2.jpg) no-repeat center center fixed; /* Imagem como fundo */
     background-size: cover; /* Faz a imagem cobrir toda a tela */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #050400;
-    color: white;
+    background-color: #d117f7;
+    color: rgb(12, 255, 4);
     padding: 20px;
     text-align: center;
 }
@@ -55,9 +55,9 @@ h1 {
 }
 
 .card {
-    background-color: white;
+    background-color: rgb(216, 8, 8);
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(241, 1, 1, 0.836);
+    box-shadow: 0 4px 6px #f8f8f8d5;
     padding: 20px;
     text-align: center;
 }
@@ -71,18 +71,18 @@ h1 {
 .card p {
     margin-top: 20px;
     font-size: 1rem;
-    color: #f30707;
+    color: #f3d00bfd;
 }
 
 .card:hover {
     transform: translateY(-10px); /* Move o card para cima */
-    box-shadow: 0 6px 10px rgba(241, 1, 1, 0.836); /* Aumenta a sombra para dar um efeito de flutuação */
+    box-shadow: 0 6px 10px rgba(248, 2, 2, 0.836); /* Aumenta a sombra para dar um efeito de flutuação */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Anima a transição de forma suave */
 }
 
 footer {
-    background-color: #111;
-    color: white;
+    background-color: #d117f7;
+    color: rgb(70, 253, 25);
     text-align: center;
     padding: 10px;
     position: 0;
