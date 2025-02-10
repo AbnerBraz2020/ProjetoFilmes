@@ -2,12 +2,14 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
+            background:url(/Docs/Imagens/DW2.jpg) no-repeat center center fixed; /* Imagem como fundo */
+            background-size: cover; /* Faz a imagem cobrir toda a tela */
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #111;
+            background-color: #050400;
             color: white;
             padding: 20px;
             text-align: center;
@@ -20,6 +22,14 @@
         /* Container principal */
         .container {
             padding: 20px;
+            color: #f3d00bfd;
+        }
+
+        .intro {
+            margin-top: 20px;
+            font-size: 1rem;
+            color: #f3d00bfd;
+            text-align: center;
         }
 
         /* Seção do diretor */
@@ -29,7 +39,7 @@
 
         .director-link {
             text-decoration: none;
-            color: #007BFF;
+            color: hwb(56 2% 0%);
             font-size: 1rem;
         }
 
@@ -48,7 +58,7 @@
         .card {
             background-color: white;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(241, 1, 1, 0.836);
             padding: 20px;
             text-align: center;
         }
@@ -60,9 +70,15 @@
         }
 
         .card p {
-            margin-top: 15px;
+            margin-top: 20px;
             font-size: 1rem;
-            color: #333;
+            color: #f30707;
+        }
+
+        .card:hover {
+            transform: translateY(-10px); /* Move o card para cima */
+            box-shadow: 0 6px 10px rgba(241, 1, 1, 0.836); /* Aumenta a sombra para dar um efeito de flutuação */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Anima a transição de forma suave */
         }
 
         footer {
