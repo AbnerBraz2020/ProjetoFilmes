@@ -3,25 +3,46 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Atividade Desenvolvendo Web</title>
+        <title>Exemplo de JavaScript mo HTML</title>
         <link rel="stylesheet" type="text/css" href="/Tarefa 1/Tarefa.css">
+        <script>
+            // Este é um exlplo de código Java Scripy function exibirMensagem()
+        {alert("Olá, mundo!");
+        }
+        </script>
     </head>
-    
-    <header>
-        <h1>Desenvolvimento Web</h1>
-    </header>
-
     <body>
-        <h2>Atividade CSS</h2>
-        <p>Texto Aleatorio: A brisa suave da tarde acariciava a pele, enquanto o sol se escondia lentamente atrás das montanhas. O céu, tingido de laranja e rosa, parecia um quadro pintado por mãos divinas. Na rua tranquila, as folhas dançavam ao ritmo do vento, criando um espetáculo silencioso de cores e sons. Em cada esquina, o murmúrio de conversas e risos se entrelaçava com a melodia dos pássaros que voltavam para seus ninhos. A cidade parecia suspensa no tempo, como se todos os passos fossem devagar, sem pressa de chegar a lugar algum. A sensação de paz era quase palpável, como se o mundo tivesse feito uma pausa. Ali, cada detalhe se destacava, desde o cheiro da terra úmida até a luz suave que iluminava os rostos. Era como se, por um breve momento, todos os problemas desaparecessem, e a vida fosse simplesmente um convite para se deixar levar. O silêncio entre os ruídos da cidade falava mais alto do que qualquer palavra. E assim, a tarde se transformava em noite, levando consigo a promessa de um novo amanhecer.</p>
+        <button onclick="exibirMensagem()">Clique aqui</button>
     </body>
 
-    <div class="container">
-        <h4>Atividade com textos Aleatorios</h4>
-        <section class="intro">
-            <h3>Texto mais do Aleatorio</h3>
-            <p>O vento soprava suavemente entre as árvores, trazendo consigo o cheiro de terra molhada. No horizonte, o céu começava a ganhar tons laranja e rosa, sinal de que o dia estava chegando ao fim. As folhas dançavam com a brisa, como se seguissem um ritmo secreto. No coração da floresta, o silêncio reinava, quebrado apenas pelo canto distante de um pássaro. Tudo parecia em harmonia, como um momento congelado no tempo.</p>
-        </section>
-    </div>
+    <h1>Calculadora de Soma</h1>
+    <form>
+        <label for="numero1">Número 1:</label>
+        <input type="number1" id="numero1" name="numero1"><br>
+        <br>
+
+        <label for="numero2">Número 2:</label>
+        <input type="number2" id="numero2" name="numero2"><br>
+        <br>
+
+        <label for="numero3">Número 3:</label>
+        <input type="number3" id="numero3" name="numero3"><br>
+        <br>
+
+        <button type="button" onclick="somar()">Somar</button>
+
+        <p>Resultado:<span id="resultado"></span></p>
+
+        <script>
+            function somar() {
+                let num1=parseFloat(document.getElementByld("numero1").value);
+                let num2=parseFloat(document.getElementById("numero2").value);
+                let num3=parseFloat(document.getElementById("numero3").value);
+                let resultado = num1+num2+num3;
+
+                document.getElementById("resultado").textContent=resultado;
+            }
+        </script>
+    </form>
 </html>
 

@@ -1,15 +1,15 @@
 .video-container {
-    width: 120%;
-    max-width: 500px;
-    /* Limita o tamanho máximo do vídeo */
+    width: 100%; /* Ajuste para 100% para evitar que ultrapasse a largura */
+    max-width: 800px; /* Limite de largura */
     margin: 0 auto;
-    /* Centraliza horizontalmente */
+    border-radius: 8px;
+    overflow: hidden; /* Esconde qualquer parte que ultrapasse a borda */
 }
 
 iframe {
-    width: 120%;
-    height: 315px;
-    /* Tamanho padrão de um vídeo do YouTube */
+    width: 100%; /* Ajuste para 100% para se ajustar à largura do contêiner */
+    height: 450px; /* Ajuste de altura para ficar bem visível */
+    border: none; /* Removendo a borda do iframe */
 }
 
 body{
