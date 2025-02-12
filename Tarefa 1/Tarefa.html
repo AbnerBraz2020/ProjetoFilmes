@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Exemplo de JavaScript mo HTML</title>
-        <link rel="stylesheet" type="text/css" href="/Tarefa 1/Tarefa.css">
-        <script>
-            // Este é um exlplo de código Java Scripy function exibirMensagem()
-        {alert("Olá, mundo!");
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de JavaScript mo HTML</title>
+    <link rel="stylesheet" type="text/css" href="/Tarefa 1/Tarefa.css">
+    <script>
+        // Este é um exlplo de código Java Scripy function exibirMensagem()
+        {
+            alert("Olá, mundo!");
         }
-        </script>
-    </head>
-    <body>
-        <button onclick="exibirMensagem()">Clique aqui</button>
-    </body>
+    </script>
+</head>
 
-    <h1>Calculadora de Soma</h1>
-    <form>
-        <label for="numero1">Número 1:</label>
-        <input type="number1" id="numero1" name="numero1"><br>
-        <br>
+<body>
+    <button onclick="exibirMensagem()">Clique aqui</button>
+</body>
 
-        <label for="numero2">Número 2:</label>
-        <input type="number2" id="numero2" name="numero2"><br>
-        <br>
+<h1>Calculadora de Soma</h1>
+<form>
+    <label for="numero1">Número 1:</label>
+    <input type="number1" id="numero1" name="numero1"><br>
+    <br>
 
-        <label for="numero3">Número 3:</label>
-        <input type="number3" id="numero3" name="numero3"><br>
-        <br>
+    <label for="numero2">Número 2:</label>
+    <input type="number2" id="numero2" name="numero2"><br>
+    <br>
 
-        <button type="button" onclick="somar()">Somar</button>
+    <label for="numero3">Número 3:</label>
+    <input type="number3" id="numero3" name="numero3"><br>
+    <br>
 
-        <p>Resultado:<span id="resultado"></span></p>
+    <button type="button" onclick="somar()">Somar</button>
 
-        <script>
-            function somar() {
-                let num1=parseFloat(document.getElementByld("numero1").value);
-                let num2=parseFloat(document.getElementById("numero2").value);
-                let num3=parseFloat(document.getElementById("numero3").value);
-                let resultado = num1+num2+num3;
+    <p>Resultado:<span id="resultado"></span></p>
 
-                document.getElementById("resultado").textContent=resultado;
-            }
-        </script>
-    </form>
+    <script>
+        function somar() {
+            let num1 = parseFloat(document.getElementByld("numero1").value);
+            let num2 = parseFloat(document.getElementById("numero2").value);
+            let num3 = parseFloat(document.getElementById("numero3").value);
+            let resultado = num1 + num2 + num3;
+
+            document.getElementById("resultado").textContent = resultado;
+        }
+    </script>
+</form>
+
 </html>
-
