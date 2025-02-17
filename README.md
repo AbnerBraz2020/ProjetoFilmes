@@ -74,38 +74,50 @@ Profile > Setting > SSH and GPG Keys > New SSH Key
 </p>
 
 ##  - CRIAÇÃO DO REPOSITORIO
-Como criar um repositorio.
+Para criar um repositorio no github.
+Vá no seu Perfil
 
 <p align="center">
     <img src="Docs/Imagens/Repositorio.png" width="400"> 
 </p>
 
-Pelo Terminal entre na pasta do projeto
+Pelo Terminal entre na pasta do projeto e realize os comandos abaixo.
+
+- git init
+- git remote add origin
+Entre na pasta .git e execute o comando:
+- cat .\config
 
 <p align="center">
     <img src="Docs/Imagens/Init.png" width="400"> 
 </p>
 
-- git init
-- git remote add origin
-- git branch -m brain
-- git push -u origin main ou master
+e finalize executando o VScode.
+
+Esses comandos servem para que o projeto seja linkado com o github e concluindo o repositorio.
 
 ## EXECUTANDO VSCODE
+
+Após linkar o projeto com o github, precisamos executar o VScode para que o projeto possa ser iniciado.
+
+Use o comando mostrado na imagem para executar o projeto no VScode, lembrando que precisa estar dentro da pasta do projeto.
+
 <p align="center">
     <img src="Docs/Imagens/vscode.png" width="400"> 
 </p>
 
 ## - COMANDOS ADMINISTRATIVOS DO GIT NO TERMINAL DO VSCODE
 
+No Terminal do VScode execute os comandos abaixo:
+
+- git status
+- git add .
+- git commit -m "Mensagem de desenvolvedor" ex: git commit -m "File update"
+- git push -u origion master or main
+
 <p align="center">
     <img src="Docs/Imagens/Terminal VScode.png" width="400"> 
 </p>
-
-- git status
-- git add . or git add index.html
-- git commit -m "Mensagem de desenvolvedor" ex: git commit -m "File update"
-- git push -u origion master or main
 
 ## CLONAR PROJETO DO GITHUB 
 git clone (+ link do projeto no git e dentro do diretorio)
