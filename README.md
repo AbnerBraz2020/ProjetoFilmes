@@ -56,31 +56,40 @@ Precisa fazer alguns comandos no Terminal do Windows para configurar o git.
 </p>
 
 - ssh-keygen (Comando que gera a chave publica e privada, também irá pedir a criação de uma senha).
-- cat (Extrai a chave publica).
 
 <p align="center">
     <img src="Docs/Imagens/Print 4.png" width="400"> 
 </p>
+
+Entre na pasta .ssh/
+
+E use o comando "cat"
 
 ##  - CONFIGURANDO GIT
 Ao extrair a chave no Terminal, você precisa gravar sua chave no git.
 Profile > Setting > SSH and GPG Keys > New SSH Key
 
 <p align="center">
-    <img src="Docs/Imagens/" width="400"> 
+    <img src="Docs/Imagens/Key.png" width="400"> 
 </p>
 
 ##  - CRIAÇÃO DO REPOSITORIO
 Como criar um repositorio.
 
+<p align="center">
+    <img src="Docs/Imagens/Repositorio.png" width="400"> 
+</p>
+
+Pelo Terminal entre na pasta do projeto
+
+<p align="center">
+    <img src="Docs/Imagens/Init.png" width="400"> 
+</p>
+
 - git init
 - git remote add origin
 - git branch -m brain
 - git push -u origin main ou master
-
-<p align="center">
-    <img src="Docs/Imagens/Repositorio.png" width="400"> 
-</p>
 
 ## EXECUTANDO VSCODE
 <p align="center">
