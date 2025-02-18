@@ -1,5 +1,5 @@
  # MANUAL DE UTILIZAÇÃO DO SISTEMA/SITE
-## - DOwNLOAD E INSTALAÇÃO DO GITHUB
+## - DOWNLOAD E INSTALAÇÃO DO GITHUB
 Acesse o site do Github para fazer o download do Github.
 Quando acessar o site, faça o download do programa (no lugar indicado na imagem).
 
