@@ -120,6 +120,12 @@ Quando executar o vscode, você precisa instalar algumas extensões:
     <img src="Docs/Imagens/Extensões.png" width="400"> 
 </p>
 
+## - CRIAR PASTAS DENTRO DO PROJETO
+
+<p align="center">
+    <img src="Docs/Imagens/Criar pastas dentro do Projeto.png" width="400"> 
+</p>
+
 ## - CRIE UMA NOVA BRANCH
 
 Para que você possa saber as branchs existentes, use o comando:
