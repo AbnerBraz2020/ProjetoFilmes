@@ -65,7 +65,7 @@ Entre na pasta .ssh/
 
 E use o comando "cat"
 
-##  - CONFIGURANDO GIT
+## - CONFIGURANDO GIT
 Ao extrair a chave no Terminal, você precisa gravar sua chave no git.
 Profile > Setting > SSH and GPG Keys > New SSH Key
 
@@ -73,9 +73,9 @@ Profile > Setting > SSH and GPG Keys > New SSH Key
     <img src="Docs/Imagens/Key.png" width="400"> 
 </p>
 
-##  - CRIAÇÃO DO REPOSITORIO
+## - CRIAÇÃO DO REPOSITORIO
 Para criar um repositorio no github.
-Vá no seu Perfil
+Vá na Página Inicial > New > Create repository
 
 <p align="center">
     <img src="Docs/Imagens/Repositorio.png" width="400"> 
@@ -83,20 +83,24 @@ Vá no seu Perfil
 
 Pelo Terminal entre na pasta do projeto e realize os comandos abaixo.
 
-- git init
-- git remote add origin
-Entre na pasta .git e execute o comando:
-- cat .\config
-
 <p align="center">
     <img src="Docs/Imagens/Init.png" width="400"> 
 </p>
 
-e finalize executando o VScode.
+- git init
+- git remote add origin
+- Utilize o comando: code . (Para executar o vscode)                          
+No Terminal do Vscode, crie uma branch:
+- git branch -M master
+- git push -u origin master
+
+<p align="center">
+    <img src="Docs/Imagens/Repositorio 2.png" width="400"> 
+</p>
 
 Esses comandos servem para que o projeto seja linkado com o github e concluindo o repositorio.
 
-## EXECUTANDO VSCODE
+## - EXECUTANDO VSCODE
 
 Após linkar o projeto com o github, precisamos executar o VScode para que o projeto possa ser iniciado.
 
@@ -104,6 +108,46 @@ Use o comando mostrado na imagem para executar o projeto no VScode, lembrando qu
 
 <p align="center">
     <img src="Docs/Imagens/vscode.png" width="400"> 
+</p>
+
+## - INSTALAR EXTENSÕES
+
+Quando executar o vscode, você precisa instalar algumas extensões:
+- GitHub Copilot
+- GitHub Pull Request 
+
+<p align="center">
+    <img src="Docs/Imagens/Extensões.png" width="400"> 
+</p>
+
+## - CRIE UMA NOVA BRANCH
+
+Para que você possa saber as branchs existentes, use o comando:
+- git branch
+
+Para criar uma nova branch, use o comando:
+- git branch master, main ou develop
+Essas são as branchs mais usadas.
+
+<p align="center">
+    <img src="Docs/Imagens/Criação de brach.png" width="400">
+</p>
+
+## - MUDANDO DE BRANCH
+
+Caso queira mudar de branch para colocar outros projetos.
+Use o comando: git checkout NomeDaBranch
+
+<p align="center">
+    <img src="Docs/Imagens/Mudança de branch.png" width="400"> 
+</p>
+
+## - PUXAR ARQUIVOS
+
+Caso queira transferir os projetos de uma branch para outra branch, use o comando: git pull origin master
+
+<p align="center">
+    <img src="Docs/Imagens/Puxar arquivos.png" width="400"> 
 </p>
 
 ## - COMANDOS ADMINISTRATIVOS DO GIT NO TERMINAL DO VSCODE
@@ -119,5 +163,13 @@ No Terminal do VScode execute os comandos abaixo:
     <img src="Docs/Imagens/Terminal VScode.png" width="400"> 
 </p>
 
-## CLONAR PROJETO DO GITHUB 
-git clone (+ link do projeto no git e dentro do diretorio)
+Esses comandos servem para você enviar seu projeto para o github e salva-lo. 
+
+## - CLONAR PROJETO DO GITHUB
+Caso você queira seu projeto em outro computador, utilize esse comando:
+
+- git clone (+ link do projeto no git e dentro do diretorio)
+
+<p align="center">
+    <img src="Docs/Imagens/Clone.png" width="400"> 
+</p>
