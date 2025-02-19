@@ -1,4 +1,11 @@
  # MANUAL DE UTILIZAÇÃO DO SISTEMA/SITE
+## - CRIANDO UMA PASTA PELO TERMINAL
+É possivel criar uma pasta pelo Terminal para que4 você possa guardar o seu projeto.
+
+<p align="center">
+        <img src="Docs/Imagens/CRIAÇÃO DE PASTA.png" width="400"> 
+</p>
+
 ## - DOWNLOAD E INSTALAÇÃO DO GITHUB
 Acesse o site do Github para fazer o download do Github.
 Quando acessar o site, faça o download do programa (no lugar indicado na imagem).
@@ -142,7 +149,7 @@ Essas são as branchs mais usadas.
 ## - MUDANDO DE BRANCH
 
 Caso queira mudar de branch para colocar outros projetos.
-Use o comando: git checkout NomeDaBranch
+Use o comando: git checkout (NomeDaBranch)
 
 <p align="center">
     <img src="Docs/Imagens/Mudança de branch.png" width="400"> 
@@ -150,11 +157,14 @@ Use o comando: git checkout NomeDaBranch
 
 ## - PUXAR ARQUIVOS
 
-Caso queira transferir os projetos de uma branch para outra branch, use o comando: git pull origin master
+É possivel transferir os projetos de uma branch para outra branch, use o comando: git pull origin (NomeDaBranch)
+Você precisa entrar na branch que deseja receber o projeto e usar o comando pull indicando de qual branch você deseja puxar o projeto.
 
 <p align="center">
-    <img src="Docs/Imagens/Puxar arquivos.png" width="400"> 
+    <img src="Docs/Imagens/Pull.png" width="400"> 
 </p>
+
+Na imagem, o projeto está na branch abner.cinema e o usuario queria transferir para branch develop.
 
 ## - COMANDOS ADMINISTRATIVOS DO GIT NO TERMINAL DO VSCODE
 
@@ -178,4 +188,10 @@ Caso você queira seu projeto em outro computador, utilize esse comando:
 
 <p align="center">
     <img src="Docs/Imagens/Clone.png" width="400"> 
+</p>
+
+Você vai precisar esse link mostrado na imagem para puder clonar o projeto.
+
+<p align="center">
+        <img src="Docs/Imagens/Clone2.png" width="400"> 
 </p>
